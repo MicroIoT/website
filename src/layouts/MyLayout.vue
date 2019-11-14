@@ -10,14 +10,7 @@
           MicroIoT
         </q-toolbar-title>
 
-        <q-btn no-caps flat label="文档">
-          <q-menu>
-            <q-list style="min-width: 100px">
-              <q-item to="/guide" exact v-close-popup>
-                <q-item-section>入门指南</q-item-section>
-              </q-item>
-            </q-list>
-          </q-menu>
+        <q-btn no-caps flat label="文档" type="a" href="/site/index.html">
         </q-btn>
         <q-btn no-caps flat type="a" href="https://www.github.com/MicroIoT">GitHub</q-btn>
         <q-btn flat>登录</q-btn>

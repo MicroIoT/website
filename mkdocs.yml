@@ -1,0 +1,28 @@
+site_name: MicroIoT入门指南
+site_description: 'MicroIoT物联网平台入门指南文档'
+site_author: '曹新宇'
+site_url: 'https://www.microiot.top'
+
+repo_name: 'MicroIoT/website'
+repo_url: 'https://github.com/MicroIoT/website'
+
+copyright: 'Copyright &copy; 2019 <a href="https://github.com/caoxinyu">caoxinyu</a>'
+
+nav:
+    - MicroIoT: index.md
+    - 核心概念: concept.md
+    - 快速入门: start.md
+    - 系统介绍: system.md
+    - 产品介绍: product.md
+    - 应用场景: scenario.md
+theme:
+    name: 'material'
+    custom_dir: 'material'
+    logo: 'img/logo.png'
+    language: 'zh'
+    favicon: 'img/favicon.ico'
+    palette:
+        primary: 'light blue'
+        accent: 'light blue'
+extra_css:
+    - css/extra.css
