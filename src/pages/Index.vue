@@ -4,8 +4,8 @@
       <div class="row justify-center q-ma-xs text-h2 text-weight-medium" >MicroIoT物联网平台</div>
       <div class="row justify-center q-ma-xs text-h6">软件定义物联网，极速构建你的物联网产品。</div>
       <div class="row justify-center q-gutter-sm">
-        <q-input dense class="q-my-xl" outlined v-model="text" label="您的电子邮件" style="width: 300px"/>
-        <q-btn class="q-my-xl" color="primary">免费使用</q-btn>
+        <q-input dense class="q-my-xl" outlined v-model="email" label="您的电子邮件" style="width: 300px"/>
+        <q-btn class="q-my-xl" color="primary" @click="register">免费使用</q-btn>
       </div>
       <div class="row " >
         <div class="row justify-center col-xs-12 col-sm-6 col-md-4">
@@ -63,6 +63,20 @@
 
 <script>
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  data () {
+    return {
+      email: ''
+    }
+  },
+  methods: {
+    register () {
+      if (this.email.length > 0) {
+        window.location.href = '/studio/#/register/' + this.email
+      } else {
+        window.location.href = '/studio/#/register'
+      }
+    }
+  }
 }
 </script>

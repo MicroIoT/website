@@ -13,8 +13,8 @@
         <q-btn no-caps flat label="文档" type="a" href="/site/index.html">
         </q-btn>
         <q-btn no-caps flat type="a" href="https://www.github.com/MicroIoT">GitHub</q-btn>
-        <q-btn flat>登录</q-btn>
-        <q-btn outline color="white">注册</q-btn>
+        <q-btn flat type="a" href="https://www.microiot.top/studio">登录</q-btn>
+        <q-btn outline color="white" type="a" href="https://www.microiot.top/studio/#/register">注册</q-btn>
       </q-toolbar>
     </q-header>
 
