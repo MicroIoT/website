@@ -49,7 +49,7 @@
     <div class="q-mt-xl " style="width: 100vw;">
       <q-separator></q-separator>
       <div class="row justify-center q-mt-md">
-        <img src="statics/icons/favicon-96x96.png" width="64"/>
+        <img src="statics/icons/favicon-96x96.png" width="64" height="64"/>
       </div>
       <div class="row justify-center">
         <div>MicroIoT is developed and maintained by <a href="https://www.github.com/caoxinyu">caoxinyu</a></div>

@@ -16,7 +16,7 @@
 
 ## 注册MicroIoT用户
 
-使用MicroIoT之前，需要先注册MicroIoT用户。注册MicroIoT用户非常简单，只需要进入[MicroIoT注册页面][4]，输入电子邮件和密码，MicroIoT会为用户建立账户，账户用户名为电子邮件，系统同时建立同名的领域分配给该账户，用户登录后，可以在此领域内配置元数据信息、添加场地、设备，监控设备。
+使用MicroIoT之前，需要先注册MicroIoT用户。注册MicroIoT用户非常简单，只需要进入MicroIoT注册页面[https://www.microiot.top/studio/#/register][4]，输入电子邮件和密码，MicroIoT会为用户建立账户，账户用户名为电子邮件，系统同时建立同名的领域分配给该账户，用户登录后，可以在此领域内配置元数据信息、添加场地、设备，监控设备。
 
   [4]: https://www.microiot.top/studio/#/register
   
@@ -26,7 +26,7 @@
 
 注册好用户后，就可以开始配置场地类型，设备类型等元数据信息。MicroIoT中设备和场地都必须先定义对应的元数据：设备类型和场地类型，才可以配置设备和场地。
 
-首先使用[MicroIoT Studio登录平台][5]，输入用户名和密码，领域可以输入，也可以登录后再选择。
+首先使用MicroIoT Studio登录平台[https://www.microiot.top/studio][5]，输入用户名和密码，领域可以输入，也可以登录后再选择。
 
   [5]: https://www.microiot.top/studio
   
@@ -114,7 +114,7 @@
 
 添加好设备后，必须在MicroIoT Device中设置设备模拟的属性值，操作响应信息，以及告警信息，才可以在MicroIoT Studio监控设备时收到设备的响应和告警。如果不设置设备信息，
 
-使用新添加设备的账号，[登录MicroIoT Device][6]，设置设备信息。此时进入MicroIoT Studio设备信息页面，刷新页面后，设备图标会由断线图标变为连线图标，代表设备已上线。
+使用新添加设备的账号，登录MicroIoT Device [https://www.microiot.top/device][6]，设置设备信息。此时进入MicroIoT Studio设备信息页面，刷新页面后，设备图标会由断线图标变为连线图标，代表设备已上线。
 
   [6]: https://www.microiot.top/device
   
