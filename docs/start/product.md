@@ -1,6 +1,6 @@
 # 产品介绍
 
-![img36](img/img36.png)
+![img36](../img/img36.png)
 
 MicroIoT物联网平台提供了一整套工具满足用户管理、开发、测试、部署物联网产品的需要。
 
@@ -48,15 +48,15 @@ MicroIoT Studio主要特色：
 
 - 以文件浏览器风格展示场地、设备关系，其中场地是目录，设备是文件。
 
-![img37](img/img37.png)
+![img37](../img/img37.png)
 
 - 监控任意类型设备，动态生成设备读取、设置、操作界面。
 
-![img38](img/img38.png)
+![img38](../img/img38.png)
 
 - 动态展示实时告警信息，实时显示告警总数，并实时在告警对象上显示告警状态。
 
-![img39](img/img39.png)
+![img39](../img/img39.png)
 
 ## MicroIoT Device
 

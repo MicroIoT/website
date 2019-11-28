@@ -1,4 +1,4 @@
-site_name: MicroIoT入门指南
+site_name: MicroIoT文档
 site_description: 'MicroIoT物联网平台入门指南文档'
 site_author: '曹新宇'
 site_url: 'https://www.microiot.top'
@@ -9,12 +9,102 @@ repo_url: 'https://github.com/MicroIoT/website'
 copyright: 'Copyright &copy; 2019 <a href="https://github.com/caoxinyu">caoxinyu</a>'
 
 nav:
-    - MicroIoT: index.md
-    - 核心概念: concept.md
-    - 快速入门: start.md
-    - 系统介绍: system.md
-    - 产品介绍: product.md
-    - 应用场景: scenario.md
+    - 入门指南:
+        - MicroIoT: index.md
+        - 核心概念: start\concept.md
+        - 快速入门: start\start.md
+        - 系统介绍: start\system.md
+        - 产品介绍: start\product.md
+        - 应用场景: start\scenario.md
+    - API参考:
+        - 用户管理:
+            - 添加用户: reference\user\adduser.md
+            - 当前用户: reference\user\currentuser.md
+            - 用户信息: reference\user\userinfo.md
+            - 用户列表页: reference\user\userpage.md
+            - 修改区域: reference\user\updateuser.md
+            - 删除用户: reference\user\deleteuser.md
+            - 修改密码: reference\user\updatepassword.md
+        - 设备类型管理:
+            - 添加设备类型: reference\devicetype\adddevicetype.md
+            - 设备类型信息: reference\devicetype\devicetypeinfo.md
+            - 设备类型列表: reference\devicetype\devicetypelist.md
+            - 设备类型列表页: reference\devicetype\devicetypepage.md
+            - 重命名设备类型: reference\devicetype\renamedevicetype.md
+            - 删除设备类型: reference\devicetype\deletedevicetype.md
+            - 增加动态属性: reference\devicetype\addattribute.md
+            - 移除动态属性: reference\devicetype\deleteattribute.md
+            - 增加告警类型: reference\devicetype\addalarm.md
+            - 移除告警类型: reference\devicetype\deletealarm.md
+            - 增加操作类型: reference\devicetype\addaction.md
+            - 移除操作类型: reference\devicetype\deleteaction.md
+        - 场地类型管理:
+            - 添加场地类型: reference\sitetype\addsitetype.md
+            - 场地类型信息: reference\sitetype\sitetypeinfo.md
+            - 场地类型列表: reference\sitetype\sitetypelist.md
+            - 场地类型列表页: reference\sitetype\sitetypepage.md
+            - 重命名场地类型: reference\sitetype\renamesitetype.md
+            - 删除场地类型: reference\sitetype\deletesitetype.md
+        - 场地管理:
+            - 添加场地: reference\site\addsite.md
+            - 场地信息: reference\site\siteinfo.md
+            - 场地列表页: reference\site\sitepage.md
+            - 场地数量: reference\site\sitecount.md
+            - 重命名场地: reference\site\renamesite.md
+            - 修改场地属性: reference\site\updatesite.md
+            - 删除场地: reference\site\deletesite.md
+        - 设备管理:
+            - 注册设备: reference\device\adddevice.md
+            - 设备信息: reference\device\deviceinfo.md
+            - 当前设备信息: reference\device\currentdevice.md
+            - 设备列表页: reference\device\devicepage.md
+            - 设备数量: reference\device\devicecount.md
+            - 重命名设备: reference\device\renamedevice.md
+            - 移动设备: reference\device\movedevice.md
+            - 修改设备属性: reference\device\updatedevice.md
+            - 删除设备: reference\device\deletedevice.md
+        - 设备组管理:
+            - 添加设备组: reference\devicegroup\adddevicegroup.md
+            - 设备组信息: reference\devicegroup\devicegroupinfo.md
+            - 设备组列表: reference\devicegroup\devicegrouplist.md
+            - 设备组列表页: reference\devicegroup\devicegrouppage.md
+            - 重命名设备组: reference\devicegroup\renamedevicegroup.md
+            - 删除设备组: reference\devicegroup\deletedevicegroup.md
+            - 增加设备: reference\devicegroup\adddevice.md
+            - 移除设备: reference\devicegroup\deletedevice.md
+        - 领域管理:
+            - 添加领域: reference\domain\adddomain.md
+            - 改变当前领域: reference\domain\choosedomain.md
+            - 领域信息: reference\domain\domaininfo.md
+            - 当前领域: reference\domain\currentdomain.md
+            - 领域列表: reference\domain\domainlist.md
+            - 重命名领域: reference\domain\renamedomain.md
+            - 删除领域: reference\domain\deletedomain.md
+        - 事件管理:
+            - 上报事件: reference\event\addevent.md
+            - 事件信息: reference\event\eventinfo.md
+            - 事件列表页: reference\event\eventpage.md
+        - 告警管理:
+            - 上报告警: reference\alarm\addalarm.md
+            - 告警信息: reference\alarm\alarminfo.md
+            - 告警列表页: reference\alarm\alarmpage.md
+        - 统一查询:
+            - 统一查询: reference\query\query.md
+            - 查询id: reference\query\query.md
+            - 查询对象: reference\query\queryobject.md
+            - 查询列表: reference\query\querylist.md
+            - 查询列表页: reference\query\querypage.md
+            - 查询地理位置: reference\query\querygeo.md
+            - 查询distinct: reference\query\querydistinct.md
+            - 查询数量: reference\query\querycount.md
+            - 查询是否存在: reference\query\queryexist.md
+        - 基础数据类型:
+            - 属性类型定义: reference\datatype\typeinfo.md
+            - 属性值输入: reference\datatype\valueinfo.md
+            - 数据类型: reference\datatype\datatype.md
+            - 数据值: reference\datatype\datavalue.md
+            - 列表页: reference\datatype\page.md
+            - 地理位置结果: reference\datatype\georesult.md
 theme:
     name: 'material'
     custom_dir: 'material'
@@ -26,3 +116,6 @@ theme:
         accent: 'light blue'
 extra_css:
     - css/extra.css
+markdown_extensions:
+  - admonition
+  - codehilite

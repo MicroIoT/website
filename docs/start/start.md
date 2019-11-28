@@ -11,8 +11,8 @@
 7. [监控共享单车](#_7)
 
 
-  [1]: ./product.md#microiot-studio
-  [2]: ./product.md#microiot-device
+  [1]: product.md#microiot-studio
+  [2]: product.md#microiot-device
 
 ## 注册MicroIoT用户
 
@@ -20,7 +20,7 @@
 
   [4]: https://www.microiot.top/studio/#/register
   
-![img3](img/img3.png)
+![img3](../img/img3.png)
 
 ## 配置共享单车场地类型
 
@@ -30,19 +30,19 @@
 
   [5]: https://www.microiot.top/studio
   
-![img4](img/img4.png)
+![img4](../img/img4.png)
 
 点击导航栏中的场地类型，进入场地类型页面，在页面右上角点击下拉菜单，选择添加场地类型。
 
-![img5](img/img5.png)
+![img5](../img/img5.png)
 
 首先输入场地类型名称和描述，场地类型名称在领域内唯一。
 
-![img6](img/img6.png)
+![img6](../img/img6.png)
 
 点击继续，在场地类型属性信息部分，点击添加，添加属性model和sn，并输入属性model和sn的元数据信息，点击回退可以返回上一步修改场地类型的名称和描述，最后点击提交后就建好了共享单车场地类型。
 
-![img7](img/img7.png)
+![img7](../img/img7.png)
 
 ## 配置智能车锁设备类型
 
@@ -50,29 +50,29 @@
 
 点击导航栏中的设备类型，进入设备类型页面，在设备类型页面右上角点击下拉菜单，选择添加设备类型。
 
-![img8](img/img8.png)
+![img8](../img/img8.png)
 
 输入设备类型名称和描述，设备类型名称必须在领域内唯一。
 
-![img9](img/img9.png)
+![img9](../img/img9.png)
 
 点击继续，进入设备类型动态属性信息部分，关于静态属性和动态属性的说明，请见[静态属性][3]。点击添加，添加设备的属性：location和locked，输入属性location和locked元数据信息。
 
-  [3]: ./concept.md#_2
+  [3]: concept.md#_2
   
-![img10](img/img10.png)
+![img10](../img/img10.png)
 
 点击继续，进入设备类型静态属性信息页面，智能车锁没有静态属性，接着点击继续，进入设备操作类型页面，点击添加，添加设备操作类型，输入操作类型名称和描述，操作类型名称在整个设备类型内唯一，点击确定进入getHistory操作类型请求信息详细页面。
 
-![img11](img/img11.png)
+![img11](../img/img11.png)
 
 在getHistory操作类型信息页面内，输入getHistory操作类型元数据信息，包括请求信息和响应信息。如果选择的数据类型是Struct或Choice，还需要输入附加信息描述Struct或Choice内部包含的属性的元数据信息。点击请求参数信息页面中的继续，可以输入Struct或Choice的附加信息。
 
-![img12](img/img12.png)
+![img12](../img/img12.png)
 
 点击设备操作类型信息页面的继续，进入设备告警类型信息页，点击添加，添加告警类型：StateChangedAlarm，输入告警类型元数据信息。
 
-![img13](img/img13.png)
+![img13](../img/img13.png)
 
 点击提交，智能车锁设备类型就建好了。
 
@@ -82,15 +82,15 @@
 
 点击导航栏中的设备，进入设备页面，点击页面右上角下拉菜单，选择添加场地。
 
-![img14](img/img14.png)
+![img14](../img/img14.png)
 
 在场地基本信息页内，显示了当前的父场地信息，从下拉框内选择场地类型，然后输入场地名称，场地名称在父场地内不能相互冲突。
 
-![img15](img/img15.png)
+![img15](../img/img15.png)
 
 点击继续，进入场地属性值页面，输入model和sn的属性值。
 
-![img16](img/img16.png)
+![img16](../img/img16.png)
 
 点击提交完成场地添加。
 
@@ -100,15 +100,15 @@
 
 点击导航栏的设备，进入设备页面，点击设备要部署的场地，进入场地后，点击页面右上角下拉菜单，选择添加设备。
 
-![img17](img/img17.png)
+![img17](../img/img17.png)
 
 在设备基本信息页内，显示了当前的父场地信息，从下拉框内选择设备类型，然后输入设备名称，设备名称在父场地内不能相互冲突。
 
-![img18](img/img18.png)
+![img18](../img/img18.png)
 
 点击继续，进入设备静态属性值页面，智能厕所设备没有静态属性，可以直接点提交添加设备。设备建立好后，请注意保存设备的账户信息。
 
-![img19](img/img19.png)
+![img19](../img/img19.png)
 
 ## 设置智能车锁信息
 
@@ -118,19 +118,19 @@
 
   [6]: https://www.microiot.top/device
   
-![img20](img/img20.png)
+![img20](../img/img20.png)
 
 点击导航栏的属性，进入属性页面，点击属性，进入属性信息页面，点击编辑设置属性值，设置完成后，点击保存完成属性值设置。
 
-![img21](img/img21.png)
+![img21](../img/img21.png)
 
 点击导航栏的操作，进入操作页面，点击操作getHistory，进入操作信息页面，点击编辑，设置操作的响应信息。设置完成后，点击保存完成操作响应值设置。
 
-![img22](img/img22.png)
+![img22](../img/img22.png)
 
 点击导航栏的告警，进入告警页面，点击告警StateChangedAlarm，进入告警信息页面，点击编辑，设置告警信息。设置完成后，点击保存完成告警信息设置。
 
-![img23](img/img23.png)
+![img23](../img/img23.png)
 
 ## 监控共享单车
 
@@ -138,39 +138,39 @@
 
 重新返回MicroIoT Studio，点击导航栏内的设备，在设备页面内找到部署设备的场地，进入场地，在场地内找到设备，点击设备进入设备详细信息页面，准备开始监控该设备。
 
-![img24](img/img24.png)
+![img24](../img/img24.png)
 
 点击设备动态属性，展开设备属性，点击location属性的读取按钮，进入读取设备属性页面，可以读取location的属性值。同时在MicroIoT Device窗口会显示有用户读取属性值。
 
-![img25](img/img25.png)
+![img25](../img/img25.png)
 
 点击locked属性的设置按钮，进入设置设备属性页面，设置好属性值后，点击设置，设置locked属性的属性值，同时在MicroIoT Device窗口会显示有用户设置属性值，打开该属性，可以看到新设置的属性值。
 
-![img26](img/img26.png)
+![img26](../img/img26.png)
 
 点击设备操作，展开操作页面，点击执行getHistory操作，进入执行设备操作页面，输入请求信息后，点击执行，系统返回在MicroIoT Device中设置的响应信息，同时在MicroIoT Device窗口会显示有用户操作设备，设备操作信息页中将显示请求信息。
 
-![img27](img/img27.png)
+![img27](../img/img27.png)
 
 打开MicroIoT Device，点击导航栏内的属性，进入属性页面，点击location属性，进入属性信息页面，点击上报，上报location属性值。
 
-![img28](img/img28.png)
+![img28](../img/img28.png)
 
 打开MicroIoT Studio，进入设备详细信息页面，打开设备动态属性，点击location的查询按钮，会显示上报的事件信息。
 
-![img29](img/img29.png)
+![img29](../img/img29.png)
 
 在MicroIoT Studio设备详细信息页面，点击右上角的下拉菜单，选择订阅告警。订阅告警成功后，MicroIoT Studio会实时收到设备上报的告警信息。
 
-![img30](img/img30.png)
+![img30](../img/img30.png)
 
 进入MicroIoT Device，点击导航栏内的告警，进入告警页面，点击StateChangedAlarm告警，进入告警信息页面，点击上报，上报告警信息。此时MicroIoT Studio会发出告警音。
 
-![img31](img/img31.png)
+![img31](../img/img31.png)
 
 进入MicroIoT Studio，导航栏内的告警傍边会显示红色的告警总数，点击告警，进入告警页面，点击设备，进入设备告警详细信息页面，在告警详细信息页面中将实时显示告警详细信息。打开告警详细信息后，代表告警已读，导航栏内告警总数将减少一个。如果告警总数为零，则不显示。此时进入设备详细信息页面，如果告警总数大于零，设备图标显示红色。
 
-![img32](img/img32.png)
+![img32](../img/img32.png)
 
-![img33](img/img33.png)
+![img33](../img/img33.png)
 
