@@ -90,7 +90,7 @@ nav:
             - 告警列表页: reference\alarm\alarmpage.md
         - 统一查询:
             - 统一查询: reference\query\query.md
-            - 查询id: reference\query\query.md
+            - 查询id: reference\query\queryid.md
             - 查询对象: reference\query\queryobject.md
             - 查询列表: reference\query\querylist.md
             - 查询列表页: reference\query\querypage.md
