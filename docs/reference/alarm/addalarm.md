@@ -9,7 +9,7 @@ POST https://www.microiot.top/server/alarms
 
 | 访问用户角色 | 是否需要认证                                 |
 | :----------- | :------------------------------------------- |
-| 设备         | 是，使用Bearer Token认证，具体信息见登录授权 |
+| 设备         | 是，使用Bearer Token认证，具体信息见[REST API认证](../api.md) |
 
 
 ## 请求体

@@ -9,7 +9,7 @@ DELETE https://www.microiot.top/server/devicetypes/{id}/alarmtype/{alarmtype}
 
 | 访问用户角色           | 是否需要认证                                 |
 | :--------------------- | :------------------------------------------- |
-| 系统管理员或区域管理员 | 是，使用Bearer Token认证，具体信息见登录授权 |
+| 系统管理员或区域管理员 | 是，使用Bearer Token认证，具体信息见[REST API认证](../api.md) |
 
 ## 请求参数
 

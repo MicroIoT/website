@@ -16,7 +16,11 @@ nav:
         - 系统介绍: start\system.md
         - 产品介绍: start\product.md
         - 应用场景: start\scenario.md
-    - API参考:
+    - REST API参考:
+        - MicroIoT REST API: reference\api.md
+        - 用户认证:
+            - 用户登录: reference\auth\login.md
+            - 刷新token: reference\auth\refresh.md
         - 用户管理:
             - 添加用户: reference\user\adduser.md
             - 当前用户: reference\user\currentuser.md
