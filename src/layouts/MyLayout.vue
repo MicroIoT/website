@@ -10,10 +10,10 @@
           MicroIoT
         </q-toolbar-title>
 
-        <q-btn no-caps flat type="a" href="https://www.github.com/MicroIoT">
+        <q-btn no-caps flat type="a" href="https://www.github.com/MicroIoT" target="_blank">
           GitHub
         </q-btn>
-        <q-btn no-caps flat type="a" href="https://hub.docker.com/u/microiot">
+        <q-btn no-caps flat type="a" href="https://hub.docker.com/u/microiot" target="_blank">
           Docker
         </q-btn>
         <q-btn no-caps flat label="文档" type="a" href="/site/index.html"/>
