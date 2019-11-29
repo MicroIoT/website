@@ -8,9 +8,9 @@
 | arrayValue  | [AttValueInfo]()[]            | 否   | Array数据类型属性值                                          |
 | structValue | map(string, [AttValueInfo]()) | 否   | Struct或Choice数据类型属性值                                 |
 
-### 示例
+## 示例
 
-#### Location数据类型属性值输入
+### Location数据类型属性值输入
 
 ``` JSON
 {
@@ -18,7 +18,7 @@
 }
 ```
 
-#### Struct Array数据类型属性值输入
+### Struct Array数据类型属性值输入
 
 下面的结构数组数据类型的类型定义参见[属性类型定义示例](typeinfo.md#struct-array)。
 

@@ -13,7 +13,7 @@
 
 
 
-### ActionTypeInfo
+## ActionTypeInfo
 
 操作类型定义是用于定义操作元信息的数据类型。详细介绍参见入门指南中[核心概念](../../start/concept.md#_2)。
 
@@ -24,7 +24,7 @@
 | requestInfo  | [AttTypeInfo]() | 否   | 请求信息 |
 | responseInfo | [AttTypeInfo]() | 否   | 响应信息 |
 
-### DataType
+## DataType
 
 数据类型信息
 
@@ -41,9 +41,9 @@
 | Struct   | string | 结构类型       |
 | Choice   | string | 任意类型       |
 
-### 示例
+## 示例
 
-#### String属性类型定义
+### String属性类型定义
 
 ``` JSON
 {
@@ -58,7 +58,7 @@
 }
 ```
 
-#### Enum属性类型定义
+### Enum属性类型定义
 
 ``` JSON
 {
@@ -72,7 +72,7 @@
 }
 ```
 
-#### String Array属性类型定义
+### String Array属性类型定义
 
 ``` JSON
 {
@@ -88,7 +88,7 @@
 }
 ```
 
-#### Struct属性类型定义
+### Struct属性类型定义
 
 ``` JSON
 {
@@ -122,7 +122,7 @@
 }
 ```
 
-#### Struct Array属性类型定义
+### Struct Array属性类型定义
 
 ``` JSON
 {
@@ -157,7 +157,7 @@
 }
 ```
 
-#### Choice属性类型定义
+### Choice属性类型定义
 
 ``` JSON
 {

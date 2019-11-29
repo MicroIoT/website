@@ -7,14 +7,14 @@ GeoResults用于返回距离中心点最大距离范围内的地理位置信息�
 | averageDistance | [Distance](#distance)     | 平均距离信息         |
 | content         | [GeoResult](#georesult)[] | 地理位置结果信息数组 |
 
-### GeoResult
+## GeoResult
 
 | 名称     | 类型                                                         | 描述         |
 | -------- | ------------------------------------------------------------ | ------------ |
 | content  | [Device](../device/adddevice.md#device)或[Site](../site/addsite.md#site)或[Event](../event/addevent.md#event)或[Alarm](../alarm/addalarm.md#alarm) | 结果对象     |
 | distance | [Distance](#distance)                                        | 到中心点距离 |
 
-### Distance
+## Distance
 
 距离信息。
 
@@ -23,7 +23,7 @@ GeoResults用于返回距离中心点最大距离范围内的地理位置信息�
 | value  | double            | 距离值   |
 | metric | [Metric](#metric) | 距离单位 |
 
-### Metric
+## Metric
 
 距离单位，缺省单位为米。
 
@@ -34,7 +34,7 @@ GeoResults用于返回距离中心点最大距离范围内的地理位置信息�
 
 
 
-### 示例
+## 示例
 
 ``` JSON
 {
