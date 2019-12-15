@@ -2,9 +2,9 @@
 
 根据查询条件查询符合条件的对象是否存在。
 
-``` HTTP
-GET https://www.microiot.top/server/{queryObject}/query/exist?filter={filter}&sort={sort}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/{queryObject}/query/exist?filter={filter}&sort={sort}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -35,8 +35,8 @@ GET https://www.microiot.top/server/{queryObject}/query/exist?filter={filter}&so
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/devices/query/exist?filter={ name: "001" }&sort={ connected: 1 }
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/query/exist?filter={ name: "001" }&sort={ connected: 1 }
+
 
 

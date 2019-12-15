@@ -2,9 +2,9 @@
 
 查询距离中心位置最大距离范围内符合查询条件的对象。返回结果必须在当前领域范围内。
 
-``` HTTP
-GET https://www.microiot.top/server/{queryObject}/query/geo?x={x}&y={y}&maxDistance={maxDistance}&metrics={metrics}&filter={filter}&sort={sort}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/{queryObject}/query/geo?x={x}&y={y}&maxDistance={maxDistance}&metrics={metrics}&filter={filter}&sort={sort}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -41,7 +41,7 @@ GET https://www.microiot.top/server/{queryObject}/query/geo?x={x}&y={y}&maxDista
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/sites/query/geo?x=101&y=37&maxDistance=1000&sort={ name: -1 }&pageSize=5
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sites/query/geo?x=101&y=37&maxDistance=1000&sort={ name: -1 }&pageSize=5
+
 

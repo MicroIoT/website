@@ -2,9 +2,9 @@
 
 删除一个场地。
 
-``` HTTP
-DELETE https://www.microiot.top/server/sites/{id}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/sites/{id}
+
 场地内没有场地和设备才可以被删除。删除场地时，该场地相关的告警数据，配置数据等都将被删除。系统管理员和区域管理员都可以删除场地，但是区域管理员只能删除自己负责的区域内的场地。
 
 ## 访问控制
@@ -35,8 +35,8 @@ DELETE https://www.microiot.top/server/sites/{id}
 
 ### 请求URI示例
 
-``` HTTP
-DELETE https://www.microiot.top/server/sites/5ddb2fbe0e8e3d0001f60ec9
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/sites/5ddb2fbe0e8e3d0001f60ec9
+
 
 

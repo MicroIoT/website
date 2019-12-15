@@ -2,9 +2,9 @@
 
 添加一个新的场地。
 
-``` HTTP
-POST https://www.microiot.top/server/sites
-```
+!!! info "http"
+    POST https://www.microiot.top/server/sites
+
 添加场地之前必须要确定当前工作的领域。系统管理员和区域管理员都可以添加场地，但是区域管理员只能在自己负责的区域添加场地。
 
 命名一个场地有三种方式：

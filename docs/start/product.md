@@ -4,13 +4,13 @@
 
 MicroIoT物联网平台提供了一整套工具满足用户管理、开发、测试、部署物联网产品的需要。
 
-1. [MicroIoT Server](#microiot-server)：MicroIoT服务器
+1. MicroIoT Server：MicroIoT服务器
 
-2. [MicroIoT API](#microiot-api)：MicroIoT应用编程接口
+2. MicroIoT API：MicroIoT应用编程接口
 
-3. [MicroIoT Studio](#microiot-studio)：MicroIoT图形界面管理工具
+3. MicroIoT Studio：MicroIoT图形界面管理工具
 
-4. [MicroIoT Device](#microiot-device)：MicroIoT设备模拟器
+4. MicroIoT Device：MicroIoT设备模拟器工具
 
 ## MicroIoT Server
 
@@ -30,16 +30,16 @@ MicroIoT Server的主要特色：
 
 MicroIoT API将物联网应用和设备连接到MicroIoT物联网平台，使用平台提供的物联网服务。当前用户可以使用的编程语言包括Java和JavaScript。
 
-MicroIoT API应用端主要提供以下几个方面API：与设备通信API，数据查询API，场地管理API，设备管理API，元数据管理API，用户管理API，设备组管理API，领域管理API等。
+MicroIoT API应用端主要提供以下几个方面API：设备监控API，统一查询API，管理API等。
 
-MicroIoT API设备端主要提供一下几个方面API：与应用通信API，事件上报API，告警上报API。
+MicroIoT API设备端主要提供一下几个方面API：监控API，事件上报API，告警上报API等。
 
 MicroIoT API的主要特色：
 
 - 断线自动重连：MicroIoT平台底层通信协议使用websocket，websocket协议是长连接协议。为了保证物联网可靠通信，必须建立稳定的重连机制解决网络不稳定的情况。MicroIoT API会在监测到断线的时候，每隔一段时间重新连接服务器，直到与服务器建立连接。
 - 多平台连接：有时候物联网应用需要同时连接多个平台上的不同账号，与不同平台上的物联网设备通信，MicroIoT API支持同时设置多个不同平台上的账号与多个平台连接。物联网设备端也支持同时配置多个设备账户，与多个平台相连。
 - 同步、异步调用：MicroIoT API即支持同步调用方式，也支持异步调用方式，用户可以根据自己的业务场景选择合适的调用方式。
-
+- 业务和技术关注点分离：MicroIoT API屏蔽了底层的网络协议接口，数据序列化、反序列化操作，线程同步等通信协议栈技术细节，开发人员只需要关注业务功能，不需要了解底层通信机制。
 ## MicroIoT Studio
 
 MicroIoT Studio是web界面MicroIoT系统管理工具，提供设备监控，元数据管理，设备管理，场地管理，设备组管理，领域管理，用户管理等功能。
@@ -60,4 +60,4 @@ MicroIoT Studio主要特色：
 
 ## MicroIoT Device
 
-采用微服务架构的MicroIoT平台存在微服务架构固有的缺点：由于拆分为微服务，增加了系统开发和测试的复杂度。为此MicroIoT平台提供了MicroIoT Device工具，以软件的方式模拟物联网硬件设备的读取、设置、操作，上报事件、告警信息。
+采用微服务架构的MicroIoT平台存在微服务架构固有的缺点：由于拆分为微服务，增加了系统开发和测试的复杂度。为此MicroIoT平台提供了MicroIoT Device工具，以软件的方式模拟物联网硬件设备的读取、设置、操作，上报事件、告警信息，方便物联网应用开发和演示。

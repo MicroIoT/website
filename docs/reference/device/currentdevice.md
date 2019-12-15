@@ -2,9 +2,9 @@
 
 查询当前登录设备的详细信息。
 
-``` HTTP
-GET https://www.microiot.top/server/devices/me
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/me
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

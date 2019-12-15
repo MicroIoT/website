@@ -2,9 +2,9 @@
 
 从一个设备类型中删除一个告警类型。
 
-``` HTTP
-DELETE https://www.microiot.top/server/devicetypes/{id}/alarmtype/{alarmtype}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/devicetypes/{id}/alarmtype/{alarmtype}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -30,9 +30,9 @@ DELETE https://www.microiot.top/server/devicetypes/{id}/alarmtype/{alarmtype}
 
 删除告警类型：StatusChangedAlarm
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/alarmtype/StatusChangedAlarm
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/alarmtype/StatusChangedAlarm
+
 
 ### 响应示例
 

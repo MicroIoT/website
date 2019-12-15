@@ -2,9 +2,9 @@
 
 修改一个场地的属性值。
 
-``` HTTP
-PATCH https://www.microiot.top/server/sites
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/sites
+
 系统管理员和区域管理员都可以修改场地属性，但是区域管理员只能修改自己负责的区域内的场地。修改场地属性后，平台会发出AttributeChangedAlarm告警通知应用端。
 
 ## 访问控制

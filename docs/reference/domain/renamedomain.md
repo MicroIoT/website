@@ -2,9 +2,9 @@
 
 修改一个领域的名称。
 
-``` HTTP
-PATCH https://www.microiot.top/server/domains
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/domains
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

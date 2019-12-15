@@ -2,9 +2,9 @@
 
 查询MicroIoT平台用户信息。
 
-``` HTTP
-GET https://www.microiot.top/server/users/{username}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/users/{username}
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |
@@ -33,9 +33,9 @@ GET https://www.microiot.top/server/users/{username}
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/users/caoxinyu@gmail.com
-```
+!!! info "http"
+    GET https://www.microiot.top/server/users/caoxinyu@gmail.com
+
 
 ### 响应示例
 

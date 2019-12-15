@@ -2,9 +2,9 @@
 
 添加一个新的领域。
 
-``` HTTP
-POST https://www.microiot.top/server/domains
-```
+!!! info "http"
+    POST https://www.microiot.top/server/domains
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

@@ -2,9 +2,9 @@
 
 按页查询场地列表。查询结果只返回当前领域内符合查询条件的场地。
 
-``` HTTP
-GET https://www.microiot.top/server/sites?locationId={locationId}&siteTypeId={siteTypeId}&name={name}&currentPage={currentPage}&numPerPage={numPerPage}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sites?locationId={locationId}&siteTypeId={siteTypeId}&name={name}&currentPage={currentPage}&numPerPage={numPerPage}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -39,9 +39,9 @@ GET https://www.microiot.top/server/sites?locationId={locationId}&siteTypeId={si
 
 查询第一页场地列表页，场地名称带有1：
 
-``` HTTP
-GET https://www.microiot.top/server/sites?name=1
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sites?name=1
+
 
 ### 响应示例
 

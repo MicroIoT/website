@@ -2,9 +2,9 @@
 
 查询一个场地类型详细信息。
 
-``` HTTP
-GET https://www.microiot.top/server/sitetypes/{id}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sitetypes/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -33,9 +33,9 @@ GET https://www.microiot.top/server/sitetypes/{id}
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/sitetypes/5ddb17b00e8e3d0001f60ec7
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sitetypes/5ddb17b00e8e3d0001f60ec7
+
 
 ### 响应示例
 

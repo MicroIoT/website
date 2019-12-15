@@ -2,9 +2,9 @@
 
 修改一个设备的静态属性值。
 
-``` HTTP
-PATCH https://www.microiot.top/server/devices
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/devices
+
 系统管理员和区域管理员都可以修改设备静态属性，但是区域管理员只能修改自己负责的区域内的设备。修改设备静态属性后，平台会发出AttributeChangedAlarm告警通知应用端。
 
 ## 访问控制

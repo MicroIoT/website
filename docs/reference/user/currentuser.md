@@ -2,9 +2,9 @@
 
 当前MicroIoT平台登录用户信息。
 
-``` HTTP
-GET https://www.microiot.top/server/users/me
-```
+!!! info "http"
+    GET https://www.microiot.top/server/users/me
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

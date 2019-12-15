@@ -2,9 +2,9 @@
 
 查询场地类型列表。查询结果只返回当前领域内符合查询条件的场地类型。
 
-``` HTTP
-GET https://www.microiot.top/server/sitetypes/list
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sitetypes/list
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

@@ -2,9 +2,9 @@
 
 添加一个新的设备类型。添加设备类型之前必须要确定当前工作的领域。
 
-``` HTTP
-POST https://www.microiot.top/server/devicetypes
-```
+!!! info "http"
+    POST https://www.microiot.top/server/devicetypes
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

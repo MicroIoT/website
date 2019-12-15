@@ -2,9 +2,9 @@
 
 删除一个场地类型。场地类型必须保证平台内没有相应的场地实例才可以被删除。
 
-``` HTTP
-DELETE https://www.microiot.top/server/sitetypes/{id}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/sitetypes/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -33,8 +33,8 @@ DELETE https://www.microiot.top/server/sitetypes/{id}
 
 ### 请求URI示例
 
-``` HTTP
-DELETE https://www.microiot.top/server/sitetypes/5ddb21cb0e8e3d0001f60ec8
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/sitetypes/5ddb21cb0e8e3d0001f60ec8
+
 
 

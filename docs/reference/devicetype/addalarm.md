@@ -2,9 +2,9 @@
 
 向一个设备类型中添加一个新的告警类型。
 
-``` HTTP
-POST https://www.microiot.top/server/devicetypes/{id}/alarmtype
-```
+!!! info "http"
+    POST https://www.microiot.top/server/devicetypes/{id}/alarmtype
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -37,9 +37,9 @@ POST https://www.microiot.top/server/devicetypes/{id}/alarmtype
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/alarmtype
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/alarmtype
+
 
 ### 请求体示例
 

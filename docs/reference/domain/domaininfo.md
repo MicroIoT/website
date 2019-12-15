@@ -2,13 +2,13 @@
 
 查询一个领域详细信息。可以按领域的id查询，也可以按照领域的名称查询。
 
-``` HTTP
-GET https://www.microiot.top/server/domains/id/{id}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/domains/id/{id}
 
-``` HTTP
-GET https://www.microiot.top/server/domains/name/{name}
-```
+
+!!! info "http"
+    GET https://www.microiot.top/server/domains/name/{name}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -38,9 +38,9 @@ GET https://www.microiot.top/server/domains/name/{name}
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/domains/id/5dd245fd0e8e3d00019465bc
-```
+!!! info "http"
+    GET https://www.microiot.top/server/domains/id/5dd245fd0e8e3d00019465bc
+
 
 ### 响应示例
 

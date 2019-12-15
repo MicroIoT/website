@@ -2,9 +2,9 @@
 
 删除一个设备类型。设备类型必须保证平台内没有相应的设备实例才可以被删除。
 
-``` HTTP
-DELETE https://www.microiot.top/server/devicetypes/{id}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/devicetypes/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -33,8 +33,8 @@ DELETE https://www.microiot.top/server/devicetypes/{id}
 
 ### 请求URI示例
 
-``` HTTP
-DELETE https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973
+
 
 

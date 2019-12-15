@@ -2,9 +2,9 @@
 
 按页查询告警列表。查询结果只返回当前领域内符合查询条件的告警。
 
-``` HTTP
-GET https://www.microiot.top/server/events?deviceId={deviceId}&attribute={attribute}&reportFrom={reportFrom}&reportTo={reportTo}&receiveFrom={receiveFrom}&receiveTo={receiveTo}&currentPage={currentPage}&numPerPage={numPerPage}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/events?deviceId={deviceId}&attribute={attribute}&reportFrom={reportFrom}&reportTo={reportTo}&receiveFrom={receiveFrom}&receiveTo={receiveTo}&currentPage={currentPage}&numPerPage={numPerPage}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -42,9 +42,9 @@ GET https://www.microiot.top/server/events?deviceId={deviceId}&attribute={attrib
 
 查询第一页事件列表页，告警对象id为5dd12fa20e8e3d0001714667：
 
-``` HTTP
-GET https://www.microiot.top/server/alarms?notifyObjectId=5ddb2fbe0e8e3d0001f60ec9
-```
+!!! info "http"
+    GET https://www.microiot.top/server/alarms?notifyObjectId=5ddb2fbe0e8e3d0001f60ec9
+
 
 ### 响应示例
 

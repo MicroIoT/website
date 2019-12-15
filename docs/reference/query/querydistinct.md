@@ -2,9 +2,9 @@
 
 根据查询条件查询不同的对象列表。返回结果必须在当前领域范围内。
 
-``` HTTP
-GET https://www.microiot.top/server/{queryObject}/query/distinct?filter={filter}&sort={sort}&field={field}&returnClass={returnClass}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/{queryObject}/query/distinct?filter={filter}&sort={sort}&field={field}&returnClass={returnClass}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -39,8 +39,8 @@ GET https://www.microiot.top/server/{queryObject}/query/distinct?filter={filter}
 
 查询上线设备按deviceType字段查询的不同的DeviceType对象。
 
-``` HTTP
-GET https://www.microiot.top/server/devices/query/distinct?filter={connected: true}&field=deviceType&returnClass=devicetypes
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/query/distinct?filter={connected: true}&field=deviceType&returnClass=devicetypes
+
 
 

@@ -2,9 +2,9 @@
 
 把一个设备搬到一个新位置。
 
-``` HTTP
-PATCH https://www.microiot.top/server/devices/site
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/devices/site
+
 系统管理员和区域管理员都可以移动设备，但是区域管理员只能移动自己负责的区域内的设备。移动设备位置后，平台会发出AttributeChangedAlarm告警通知应用端。
 
 ## 访问控制

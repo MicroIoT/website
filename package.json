@@ -11,7 +11,7 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "doc dev": "mkdocs serve",
-    "doc build": "mkdocs build",
+    "doc build": "mkdocs build --clean",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0"
   },

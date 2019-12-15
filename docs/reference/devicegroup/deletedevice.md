@@ -1,10 +1,10 @@
 # 移除设备
 
-从一个设备组中删除一个设备。
+从一个设备组中移除一个设备。
 
-``` HTTP
-DELETE https://www.microiot.top/server/devicegroups/group/{groupId}/device/{deviceId}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/devicegroups/group/{groupId}/device/{deviceId}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -28,9 +28,9 @@ DELETE https://www.microiot.top/server/devicegroups/group/{groupId}/device/{devi
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/device/5dd78d800e8e3d000147b976
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/device/5dd78d800e8e3d000147b976
+
 
 ### 响应示例
 

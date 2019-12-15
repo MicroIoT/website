@@ -2,9 +2,9 @@
 
 上报一个新的事件。
 
-``` HTTP
-POST https://www.microiot.top/server/events
-```
+!!! info "http"
+    POST https://www.microiot.top/server/events
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

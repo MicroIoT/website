@@ -2,9 +2,9 @@
 
 查询设备数量。查询结果只返回当前领域内符合查询条件的设备数量。
 
-``` HTTP
-GET https://www.microiot.top/server/devices/count?locationId={locationId}&siteTypeId={siteTypeId}&name={name}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/count?locationId={locationId}&siteTypeId={siteTypeId}&name={name}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -37,6 +37,6 @@ GET https://www.microiot.top/server/devices/count?locationId={locationId}&siteTy
 
 查询设备类型id为5dd67dba0e8e3d00012613ff的设备数量：
 
-``` HTTP
-GET https://www.microiot.top/server/devices/count?deviceTypeId=5dd67dba0e8e3d00012613ff
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/count?deviceTypeId=5dd67dba0e8e3d00012613ff
+

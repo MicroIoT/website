@@ -2,9 +2,9 @@
 
 按页查询设备类型列表。查询结果只返回当前领域内符合查询条件的设备类型。查询设备类型列表页与查询设备类型列表类似，只是一个返回的是设备类型翻页数据，一个返回的是设备类型数组数据，用户可以按照需要选择使用。
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/page?currentPage={currentPage}&numPerPage={numPerPage}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/page?currentPage={currentPage}&numPerPage={numPerPage}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -36,9 +36,9 @@ GET https://www.microiot.top/server/devicetypes/page?currentPage={currentPage}&n
 
 查询第一页设备类型列表页，每页查询两个设备类型：
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/page?numPerPage=2
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/page?numPerPage=2
+
 
 ### 响应示例
 

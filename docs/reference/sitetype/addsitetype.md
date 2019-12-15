@@ -2,9 +2,9 @@
 
 添加一个新的场地类型。添加场地类型之前必须要确定当前工作的领域。
 
-``` HTTP
-POST https://www.microiot.top/server/sitetypes
-```
+!!! info "http"
+    POST https://www.microiot.top/server/sitetypes
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

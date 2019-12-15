@@ -2,9 +2,9 @@
 
 删除一个领域。
 
-``` HTTP
-DELETE https://www.microiot.top/server/domains/{id}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/domains/{id}
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |
@@ -33,8 +33,8 @@ DELETE https://www.microiot.top/server/domains/{id}
 
 ### 请求URI示例
 
-``` HTTP
-DELETE https://www.microiot.top/server/domains/5dd756190e8e3d000147b973
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/domains/5dd756190e8e3d000147b973
+
 
 

@@ -2,9 +2,9 @@
 
 删除MicroIoT平台用户。删除用户时不能删除自己，MicroIoT平台默认的用户admin也不能删除。当用户被删除时，该用户的配置信息，收藏信息也将被删除。
 
-``` HTTP
-DELETE https://www.microiot.top/server/users/{id}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/users/{id}
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

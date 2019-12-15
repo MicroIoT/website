@@ -2,9 +2,9 @@
 
 修改一个设备的名称。
 
-``` HTTP
-PATCH https://www.microiot.top/server/devices/name
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/devices/name
+
 系统管理员和区域管理员都可以重命名设备，但是区域管理员只能重命名自己负责的区域内的设备。修改设备名称后，平台会发出AttributeChangedAlarm告警通知应用端。
 
 ## 访问控制

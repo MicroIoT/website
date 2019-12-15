@@ -2,9 +2,9 @@
 
 查询场地数量。查询结果只返回当前领域内符合查询条件的场地数量。
 
-``` HTTP
-GET https://www.microiot.top/server/sites/count?locationId={locationId}&siteTypeId={siteTypeId}&name={name}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sites/count?locationId={locationId}&siteTypeId={siteTypeId}&name={name}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -37,6 +37,6 @@ GET https://www.microiot.top/server/sites/count?locationId={locationId}&siteType
 
 查询名称带有1的场地数量：
 
-``` HTTP
-GET https://www.microiot.top/server/sites/count?name=1
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sites/count?name=1
+

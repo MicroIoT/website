@@ -2,9 +2,9 @@
 
 改变当前工作的领域。
 
-``` HTTP
-PATCH https://www.microiot.top/server/domains/{name}
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/domains/{name}
+
 ## 访问控制
 
 | 访问用户角色             | 是否需要认证                                 |
@@ -32,9 +32,9 @@ PATCH https://www.microiot.top/server/domains/{name}
 
 ### 请求URI示例
 
-``` HTTP
-PATCH https://www.microiot.top/server/domains/meters
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/domains/meters
+
 
 ### 响应示例
 

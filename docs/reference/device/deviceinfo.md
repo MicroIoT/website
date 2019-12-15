@@ -2,9 +2,9 @@
 
 查询一个设备详细信息。
 
-``` HTTP
-GET https://www.microiot.top/server/devices/{id}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

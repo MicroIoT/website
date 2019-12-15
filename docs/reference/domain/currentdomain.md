@@ -2,9 +2,9 @@
 
 登录用户当前工作的领域信息。
 
-``` HTTP
-GET https://www.microiot.top/server/domains
-```
+!!! info "http"
+    GET https://www.microiot.top/server/domains
+
 
 ## 访问控制
 

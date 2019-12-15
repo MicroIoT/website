@@ -2,9 +2,9 @@
 
 查询一个设备类型详细信息。
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/{id}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -33,9 +33,9 @@ GET https://www.microiot.top/server/devicetypes/{id}
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973
+
 
 ### 响应示例
 

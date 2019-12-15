@@ -2,9 +2,11 @@
 
 上报一个新的告警。
 
-``` HTTP
-POST https://www.microiot.top/server/alarms
-```
+!!! info "http"
+    POST https://www.microiot.top/server/alarms
+
+
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

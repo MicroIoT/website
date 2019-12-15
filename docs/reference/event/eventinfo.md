@@ -2,9 +2,9 @@
 
 查询一个事件详细信息。
 
-``` HTTP
-GET https://www.microiot.top/server/events/{id}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/events/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

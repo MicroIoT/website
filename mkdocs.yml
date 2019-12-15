@@ -1,5 +1,5 @@
 site_name: MicroIoT文档
-site_description: 'MicroIoT物联网平台入门指南文档'
+site_description: 'MicroIoT物联网平台文档'
 site_author: '曹新宇'
 site_url: 'https://www.microiot.top'
 
@@ -16,6 +16,13 @@ nav:
         - 系统介绍: start\system.md
         - 产品介绍: start\product.md
         - 应用场景: start\scenario.md
+    - 开发指南:
+        - MicroIoT API for JAVA: development\index.md
+        - 建立连接: development\connect.md
+        - 统一查询: development\query.md
+        - 应用端监控: development\client.md
+        - 设备端监控: development\device.md
+        - 数据类型处理: development\datatype.md
     - REST API参考:
         - MicroIoT REST API: reference\api.md
         - 用户认证:
@@ -115,11 +122,9 @@ theme:
     logo: 'img/logo.png'
     language: 'zh'
     favicon: 'img/favicon.ico'
-    palette:
-        primary: 'light blue'
-        accent: 'light blue'
 extra_css:
     - css/extra.css
 markdown_extensions:
   - admonition
-  - codehilite
+  - codehilite:
+      linenums: true

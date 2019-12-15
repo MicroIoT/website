@@ -2,9 +2,9 @@
 
 根据查询条件查询对象列表。返回结果必须在当前领域范围内。
 
-``` HTTP
-GET https://www.microiot.top/server/{queryObject}/query/list?filter={filter}&sort={sort}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/{queryObject}/query/list?filter={filter}&sort={sort}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -35,8 +35,8 @@ GET https://www.microiot.top/server/{queryObject}/query/list?filter={filter}&sor
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/devices/query/list?filter={ name: "001" }&sort={ connected: 1 }
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/query/list?filter={ name: "001" }&sort={ connected: 1 }
+
 
 

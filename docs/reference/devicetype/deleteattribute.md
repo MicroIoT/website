@@ -2,9 +2,9 @@
 
 从一个设备类型中删除一个动态属性。
 
-``` HTTP
-DELETE https://www.microiot.top/server/devicetypes/{id}/attribute/{attribute}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/devicetypes/{id}/attribute/{attribute}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -30,9 +30,9 @@ DELETE https://www.microiot.top/server/devicetypes/{id}/attribute/{attribute}
 
 删除动态属性：status
 
-``` HTTP
-GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/attribute/status
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devicetypes/5dd756190e8e3d000147b973/attribute/status
+
 
 ### 响应示例
 

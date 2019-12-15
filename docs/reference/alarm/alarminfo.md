@@ -2,9 +2,9 @@
 
 查询一个告警详细信息。
 
-``` HTTP
-GET https://www.microiot.top/server/alarms/{id}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/alarms/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -33,9 +33,9 @@ GET https://www.microiot.top/server/alarms/{id}
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/alarms/5dd134fb0e8e3d00019e569d
-```
+!!! info "http"
+    GET https://www.microiot.top/server/alarms/5dd134fb0e8e3d00019e569d
+
 
 ### 响应示例
 

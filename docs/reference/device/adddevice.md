@@ -2,9 +2,9 @@
 
 注册一个新的设备。
 
-``` HTTP
-POST https://www.microiot.top/server/devices
-```
+!!! info "http"
+    POST https://www.microiot.top/server/devices
+
 
 添加场地之前必须要确定当前工作的领域。系统管理员和区域管理员都可以注册设备，但是区域管理员只能在自己负责的区域注册设备。
 

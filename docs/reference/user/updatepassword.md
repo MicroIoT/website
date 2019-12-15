@@ -2,9 +2,9 @@
 
 修改当前登录用户的密码。
 
-``` HTTP
-PATCH https://www.microiot.top/server/users/password
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/users/password
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

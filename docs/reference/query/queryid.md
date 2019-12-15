@@ -2,9 +2,9 @@
 
 根据对象的id查询一个对象的详细信息。返回结果必须在当前领域范围内。
 
-``` HTTP
-GET https://www.microiot.top/server/{queryObject}/query/id/{id}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/{queryObject}/query/id/{id}
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |
@@ -34,9 +34,9 @@ GET https://www.microiot.top/server/{queryObject}/query/id/{id}
 
 ### 请求URI示例
 
-``` HTTP
-GET https://www.microiot.top/server/devices/query/id/5ddb17b00e8e3d0001f60ec7
-```
+!!! info "http"
+    GET https://www.microiot.top/server/devices/query/id/5ddb17b00e8e3d0001f60ec7
+
 
 
 

@@ -2,9 +2,9 @@
 
 按页查询MicroIoT平台用户列表。
 
-``` HTTP
-GET https://www.microiot.top/server/users?currentPage={currentPage}&numPerPage={numPerPage}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/users?currentPage={currentPage}&numPerPage={numPerPage}
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |
@@ -36,9 +36,9 @@ GET https://www.microiot.top/server/users?currentPage={currentPage}&numPerPage={
 
 查询第二页用户列表示例：
 
-``` HTTP
-GET https://www.microiot.top/server/users?currentPage=1
-```
+!!! info "http"
+    GET https://www.microiot.top/server/users?currentPage=1
+
 
 ### 响应示例
 

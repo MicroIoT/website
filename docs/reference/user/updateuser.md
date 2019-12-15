@@ -2,9 +2,9 @@
 
 修改区域管理员用户所负责区域。
 
-``` HTTP
-PATCH https://www.microiot.top/server/users
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/users
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

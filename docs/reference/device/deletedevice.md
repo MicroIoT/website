@@ -2,9 +2,9 @@
 
 删除一个设备。
 
-``` HTTP
-DELETE https://www.microiot.top/server/devices/{id}
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/devices/{id}
+
 删除设备时，该设备相关的告警数据，配置数据等都将被删除。系统管理员和区域管理员都可以删除设备，但是区域管理员只能删除自己负责的区域内的设备。
 
 ## 访问控制
@@ -35,8 +35,8 @@ DELETE https://www.microiot.top/server/devices/{id}
 
 ### 请求URI示例
 
-``` HTTP
-DELETE https://www.microiot.top/server/devices/5ddb83fb0e8e3d0001f60ed3
-```
+!!! info "http"
+    DELETE https://www.microiot.top/server/devices/5ddb83fb0e8e3d0001f60ed3
+
 
 

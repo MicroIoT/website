@@ -2,9 +2,9 @@
 
 添加一个新的MicroIoT平台用户。
 
-``` HTTP
-POST https://www.microiot.top/server/user
-```
+!!! info "http"
+    POST https://www.microiot.top/server/user
+
 ## 访问控制
 
 | 访问用户角色 | 是否需要认证                                 |

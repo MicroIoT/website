@@ -2,9 +2,9 @@
 
 修改一个场地的名称。
 
-``` HTTP
-PATCH https://www.microiot.top/server/sites/name
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/sites/name
+
 系统管理员和区域管理员都可以重命名场地，但是区域管理员只能重命名自己负责的区域内的场地。修改场地名称后，平台会发出AttributeChangedAlarm告警通知应用端。
 
 ## 访问控制

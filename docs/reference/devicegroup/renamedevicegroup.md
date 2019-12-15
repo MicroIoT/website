@@ -2,9 +2,9 @@
 
 修改一个设备组的名称。
 
-``` HTTP
-PATCH https://www.microiot.top/server/devicegroups/name
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/devicegroups/name
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

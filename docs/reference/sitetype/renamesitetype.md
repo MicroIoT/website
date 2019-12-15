@@ -2,9 +2,9 @@
 
 修改一个场地类型的名称。
 
-``` HTTP
-PATCH https://www.microiot.top/server/sitetypes/name
-```
+!!! info "http"
+    PATCH https://www.microiot.top/server/sitetypes/name
+
 ## 访问控制
 
 | 访问用户角色           | 是否需要认证                                 |

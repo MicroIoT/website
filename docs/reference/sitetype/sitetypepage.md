@@ -2,9 +2,9 @@
 
 按页查询场地类型列表。
 
-``` HTTP
-GET https://www.microiot.top/server/sitetypes/page?currentPage={currentPage}&numPerPage={numPerPage}
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sitetypes/page?currentPage={currentPage}&numPerPage={numPerPage}
+
 查询结果只返回当前领域内符合查询条件的场地类型。查询场地类型列表页与查询场地类型列表类似，只是一个返回的是场地类型翻页数据，一个返回的是场地类型数组数据，用户可以按照需要选择使用。
 
 ## 访问控制
@@ -38,9 +38,9 @@ GET https://www.microiot.top/server/sitetypes/page?currentPage={currentPage}&num
 
 查询第一页场地类型列表页，每页查询两个场地类型：
 
-``` HTTP
-GET https://www.microiot.top/server/sitetypes/page?numPerPage=2
-```
+!!! info "http"
+    GET https://www.microiot.top/server/sitetypes/page?numPerPage=2
+
 
 ### 响应示例
 
