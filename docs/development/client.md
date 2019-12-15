@@ -192,7 +192,7 @@ public class Filter {
 }
 ```
 
-上面是filter结构数据类型在java中的定义，其中使用了[Lombok](https://projectlombok.org/)帮助我们定义结构数据类型，当然不使用Lombok也可以，只需要自己定义JAVA POJO即可。定义结构数据类型需要注意的是结构数据类型中的属性名称必须与MicroIoT平台中定义的属性名称完全一致，否则在对数据序列化、反序列化的过程中会出错。
+上面是filter结构数据类型在java中的定义，其中使用了[Lombok](https://projectlombok.org/)帮助我们定义结构数据类型，当然不使用Lombok也可以，只需要自己定义Java POJO即可。定义结构数据类型需要注意的是结构数据类型中的属性名称必须与MicroIoT平台中定义的属性名称完全一致，否则在对数据序列化、反序列化的过程中会出错。
 
 <a name="record"></a>
 ```java

@@ -36,7 +36,7 @@ public class QueryDemoApplication implements CommandLineRunner{
 这段代码使用`HttpClientSession`建立连接，Spring容器会在启动时自动注入连接会话，`getEntityById`方法根据id和对象类型信息返回对象的详细信息。
 
 !!! note "注意"
-    代码在@SpringBootApplication注解上加上了exclude={MongoAutoConfiguration.class}，禁止自动启动mongoDB配置，这是因为MicroIoT API for JAVA中加载的Spring Boot中mongoDB的配置会自动连接本地localhost:27017的mongoDB。
+    代码在@SpringBootApplication注解上加上了exclude={MongoAutoConfiguration.class}，禁止自动启动mongoDB配置，这是因为MicroIoT API for Java中加载的Spring Boot中mongoDB的配置会自动连接本地localhost:27017的mongoDB。
 
 ## 按查询条件查询对象
 

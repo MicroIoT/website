@@ -1,6 +1,6 @@
 ## 连接会话
 
-MicroIoT API for JAVA使用连接会话类建立与MicroIoT平台的连接。连接会话类一共有四种：
+MicroIoT API for Java使用连接会话类建立与MicroIoT平台的连接。连接会话类一共有四种：
 
 - `HttpClientSession`：应用端http连接会话类
 - `WebsocketClientSession`：应用端websocket连接会话类
@@ -11,7 +11,7 @@ http连接会话支持应用端或设备端建立与MicroIoT平台之间的http�
 
 websocket连接会话支持应用或设备端建立与MicroIoT平台之间的websocket连接，websocket连接会话建立在http连接会话基础上，通过websocket连接会话可以得到相应的http连接会话。应用端使用websocket连接会话读取、设置、操作物联网设备，还可以通过websocket连接会话订阅告警。设备端使用websocket连接会话响应读取、设置、操作请求，也可以通过websocket连接会话读取、设置、操作设备组内的设备，订阅设备组内设备的告警。
 
-MicroIoT API for JAVA使用注解建立http连接会话和websocket连接会话，在系统启动时，会话类根据Spring Boot配置文件中的连接配置参数自动建立与平台的连接。
+MicroIoT API for Java使用注解建立http连接会话和websocket连接会话，在系统启动时，会话类根据Spring Boot配置文件中的连接配置参数自动建立与平台的连接。
 
 ## 连接配置
 
@@ -19,7 +19,7 @@ MicroIoT API for JAVA使用注解建立http连接会话和websocket连接会话�
 
 ### MicroIoT URI
 
-MicroIoT API for JAVA使用MicroIoT URI建立与MicroIoT平台的连接。MicroIoT URI的格式如下：
+MicroIoT API for Java使用MicroIoT URI建立与MicroIoT平台的连接。MicroIoT URI的格式如下：
 
 ```MicroIoT
 [protocol]://[host][:port]
@@ -35,7 +35,7 @@ iotps：//www.microiot.top/server
 
 ### 连接配置参数
 
-MicroIoT API for JAVA使用http协议和websocket协议建立与MicroIoT平台的连接，用户可以通过配置以下参数配置http连接和websocket连接。
+MicroIoT API for Java使用http协议和websocket协议建立与MicroIoT平台的连接，用户可以通过配置以下参数配置http连接和websocket连接。
 
 | 参数                                                | 默认值       | 描述                                  |
 | --------------------------------------------------- | ------------ | ------------------------------------- |
