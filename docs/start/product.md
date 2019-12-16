@@ -65,8 +65,14 @@ MicroIoT Studio主要特色：
 MicroIoT Device主要功能：                                                                    
 
 - 模拟物联网设备属性，响应设备读取、设置请求，上报设备属性事件。
+
 ![img49](../img/img49.png)
+
 - 模拟物联网设备操作，响应设备操作请求。
+
 ![img50](../img/img50.png)
+
 - 模拟物联网设备告警，上报设备告警。
+
 ![img51](../img/img51.png)
+
