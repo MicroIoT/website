@@ -1,8 +1,8 @@
 # 快速入门
 
 本节将以共享单车为例，了解如何使用MicroIoT平台快速配置和监控设备。用户可以使用MicroIoT提供的web界面管理工具[MicroIoT Studio][1]完成配置和监控工作，使用[MicroIoT Device][2]模拟物联网设备返回响应信息，以及上报事件和告警信息。所有这些工作都可以使用MicroIoT提供的API完成。下面是使用MicroIoT配置和监控共享单车所需要的步骤。
-  
-1. [注册MicroIoT用户](#microiot)
+
+1. [注册MicroIoT用户](#注册MicroIoT用户)
 2. [配置共享单车场地类型](#_2)
 3. [配置智能车锁设备类型](#_3)
 4. [添加共享单车](#_4)
@@ -11,15 +11,15 @@
 7. [监控共享单车](#_7)
 
 
-  [1]: product.md#microiot-studio
-  [2]: product.md#microiot-device
+[1]: product.md#microiot-studio
+[2]: product.md#microiot-device
 
 ## 注册MicroIoT用户
 
 使用MicroIoT之前，需要先注册MicroIoT用户。注册MicroIoT用户非常简单，只需要进入MicroIoT注册页面[https://www.microiot.top/studio/#/register][4]，输入电子邮件和密码，MicroIoT会为用户建立账户，账户用户名为电子邮件，系统同时建立同名的领域分配给该账户，用户登录后，可以在此领域内配置元数据信息、添加场地、设备，监控设备。
 
-  [4]: https://www.microiot.top/studio/#/register
-  
+[4]: https://www.microiot.top/studio/#/register
+
 ![img3](../img/img3.png)
 
 ## 配置共享单车场地类型
@@ -28,8 +28,8 @@
 
 首先使用MicroIoT Studio登录平台[https://www.microiot.top/studio][5]，输入用户名和密码，领域可以输入，也可以登录后再选择。
 
-  [5]: https://www.microiot.top/studio
-  
+[5]: https://www.microiot.top/studio
+
 ![img4](../img/img4.png)
 
 点击导航栏中的场地类型，进入场地类型页面，在页面右上角点击下拉菜单，选择添加场地类型。
@@ -58,8 +58,8 @@
 
 点击继续，进入设备类型动态属性信息部分，关于静态属性和动态属性的说明，请见[静态属性][3]。点击添加，添加设备的属性：location和locked，输入属性location和locked元数据信息。
 
-  [3]: concept.md#_2
-  
+[3]: concept.md#_2
+
 ![img10](../img/img10.png)
 
 点击继续，进入设备类型静态属性信息页面，智能车锁没有静态属性，接着点击继续，进入设备操作类型页面，点击添加，添加设备操作类型，输入操作类型名称和描述，操作类型名称在整个设备类型内唯一，点击确定进入getHistory操作类型请求信息详细页面。
@@ -116,8 +116,8 @@
 
 使用新添加设备的账号，登录MicroIoT Device [https://www.microiot.top/device][6]，设置设备信息。此时进入MicroIoT Studio设备信息页面，刷新页面后，设备图标会由断线图标变为连线图标，代表设备已上线。
 
-  [6]: https://www.microiot.top/device
-  
+[6]: https://www.microiot.top/device
+
 ![img20](../img/img20.png)
 
 点击导航栏的属性，进入属性页面，点击属性，进入属性信息页面，点击编辑设置属性值，设置完成后，点击保存完成属性值设置。

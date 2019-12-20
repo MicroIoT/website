@@ -16,7 +16,7 @@
         <q-btn no-caps flat type="a" href="https://hub.docker.com/u/microiot" target="_blank">
           Docker
         </q-btn>
-        <q-btn no-caps flat label="文档" type="a" href="/site/index.html"/>
+        <q-btn no-caps flat label="文档" type="a" href="https://docs.microiot.top"/>
         <q-btn flat type="a" href="https://www.microiot.top/studio">登录</q-btn>
         <q-btn outline color="white" type="a" href="https://www.microiot.top/studio/#/register">注册</q-btn>
       </q-toolbar>
